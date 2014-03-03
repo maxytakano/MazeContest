@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Mazing"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="/Mazing/libs/gdx.jar" sourcepath="/Mazing/libs/docs/gdx-sources.jar"/>
+	<classpathentry kind="lib" path="libs/mockito-all-1.9.5.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/MazingClient"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/MazingServer"/>
+	<classpathentry kind="lib" path="/Mazing/libs/kryonet-debug-2.18-all.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/Mazing/libs/docs/kryonet.zip!/javadoc"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/cpsuite-1.2.6.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
